@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/f8523ac47c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+   <div class="container">
+    <nav>
+        <img src="images/Logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href= "#header">Home</a></li>
+            <li><a href= "#about">About</a></li>
+            <li><a href= "#services">Services</a></li>
+            <li><a href= "#portfolio">Portfolio</a></li>
+            <li><a href= "#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class= "header-text">
+        <p>Full Stack Developer</p>
+        <h1>HI, I'am<span> Pratibha</span>Singh<br>from Gorakhpur</h1>
+    </div>
+   </div>
+ </div>
+ <!-- ----------About------ -->
+<div id="about">
+        <div class="container">
+            <div class="row">
+             <div class="about-col-1">
+                <img src="images/pratibha.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"Hi, I'm Pratibha Singh, a Full-Stack Developer and aspiring Graphic Designer. I specialize in building dynamic web applications with React, Node.js, and MongoDB, while also exploring UI/UX design. Passionate about creating user-friendly and scalable solutions, I’m constantly learning and building exciting projects. Let's connect and build something amazing!"</p>
+              <div class="tab-titles">
+                      <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links"  onclick="opentab('experience')" >Experience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>full Stack web Development</span><br>Designing web/App interfaces</li>
+                    <li><span>DSA</span><br>Data Structure and Algorithms</li>
+                    <li><span>machine Learning And deep learning Intern</span><br>Stroke Prediction Machine Learning Developed a predictive model to forecao forecast stroke occurrences wing machine learning algorithms. Tools technologies used Python, NumPy, Pandus, Scikit Learn, Matplotlib, Jupyter Notebook</li>
+                </ul>
+              </div>
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2025 feb - current</span><br>Building Website</li>
+                    <li><span>2024 - 2025 Jan</span><br>common data structures and algorithms such as lists, trees, maps, graphs, Big-O analysis, and more! </li>
+                    <li><span>May 2024 - Jul 2024</span><br>Internship At IIIT Allabhad</li>
+                </ul>
+              </div>
+              <div class="tab-contents"  id="education">
+                <ul>
+                    <li><span>2025</span><br>Dr.Ram Manohar Lohiya Avadh University Ayodhya</li>
+                    <li><span>2020</span><br>Government Girls Polytechnic Amethi</li>
+                    <li><span>2017</span><br>Saraswati Vidya Mandir Sultanpur</li>
+                </ul>
+              </div> 
+        </div>
+        </div>
+    </div>
+</div>
+
+<!------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class= "services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Building Website</h2>
+                <p>1. Frontend Development
+                    Modern UI/UX Design
+                    <p>Creating responsive and visually appealing user interfaces.
+                        Single Page Applications (SPA)</p>
+                    <p>Using React.js or Next.js for dynamic web apps.
+                        Custom Website Development</p>
+                    <p>HTML, CSS, JavaScript, and Tailwind/Bootstrap-based designs.
+                        Frontend Optimization </p>
+                    <p>Enhancing performance, accessibility, and SEO.</p>
+                    <br>
+                    2. Backend Development
+                    API Development & Integration 
+                    <p>Building secure RESTful and GraphQL APIs.
+                        Database Management</p> 
+                    <p>MySQL, MongoDB, Firebase, PostgreSQL.
+                        Authentication & Authorization</p>
+                    <p>Secure login systems using JWT, OAuth, or Firebase Auth.
+                        Server-Side Logic </p>
+                    <p>Node.js, Express.js for handling business logic.</p>
+                    <br>
+                    3. Full-Stack Web Development
+                    End-to-End Web App Development 
+                    <p>Developing complete web apps from scratch.
+                        E-commerce Development</p> 
+                    <p>Building online stores with payment gateways (Stripe, Razorpay).
+                        Real-Time Applications</p>
+                    <p>WebSockets, chat applications, and live updates.
+                        Admin Dashboards</p>  
+                    <p>Developing interactive dashboards for business management.</p>
+                    <br>
+                    4. Deployment & Maintenance
+                    Website Deployment 
+                    <p>Hosting on AWS, Vercel, Netlify, DigitalOcean, etc.
+                        Performance Optimization</p> 
+                    <p>Improving website speed and efficiency.
+                        Bug Fixing & Maintenance</p> 
+                    <p>Regular updates and troubleshooting.</p>
+                    <br>
+                    5. Tech Stack You Use (Optional Section)
+                    Frontend: React.js, Next.js, Tailwind CSS, Bootstrap.
+                    Backend: Node.js, Express.js, Firebase.
+                    Databases: MongoDB, PostgreSQL, MySQL.
+                    Other Tools: Git, Docker, CI/CD Pipelines.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2> Competitive Programming Solutions</h2>
+                <p>Description: Offer optimized solutions for complex algorithmic problems in platforms like CodeChef, LeetCode, and CodeForces</p>
+                <p>Custom Data Structures Implementation
+                    Description: Build and implement advanced data structures tailored for specific project needs.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2> Machine Learning And Deep Learning</h2>
+                <p>1. Predictive Analytics
+                    Building ML models for forecasting and data-driven decision-making.
+                    Example: Heart disease prediction using ML (based on your previous project).</p>
+                    <br>
+                    <p> 2. Computer Vision Solutions
+                        Image classification, object detection, and facial recognition using Deep Learning.
+                        Example: Medical image analysis, OCR, or AI-powered surveillance.</p>
+                    <br>
+                    <p> 3. Natural Language Processing (NLP)
+                        Sentiment analysis, chatbots, text summarization, and language translation.
+                        Example: AI chatbot for customer support or news article summarization.</p>
+                <p>Custom Data Structures Implementation
+                    Description: Build and implement advanced data structures tailored for specific project needs.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------portfolio------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A smart music streaming application designed to deliver personalized playlists and song recommendations using deep learning techniques
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shoping App</h3>
+                    <p>This app provides a personalized shopping journey using machine learning algorithms to suggest products based on user preferences and browsing history.</p>
+                    <p>With a secure checkout system and an engaging UI, it ensures a smooth and enjoyable e-commerce experience."
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+</div>
+</div>
+<!-----------------Contact------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class= "row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ipratibhasingh02@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6388184292</p>
+                <br>
+                <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://x.com/home"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/ipratibha02/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Pratibha-Singh00"><i class="fa-brands fa-square-github"></i></a>
+            </div>  
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+
+                <!-- <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email"placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your message" ></textarea> -->
+                <!-- <button type="Submit" class="btn bt2">Submit</button> -->
+                <button type="submit" class="btn btn2">submit</button>
+                <!-- <p id="msg" style="color: green;"></p> -->
+
+            </form> 
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- <div class="copyright">
+    <P>Copyright pratibha .made with by TUtorials</P>
+</div> -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+        
+        // var sidemenu = document.getElemetById("sidemenu");
+        var sidemenu = document.getElementById("sidemenu");
+
+
+
+        function openmenu(){
+            sidemenu.style.right = "0"; 
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px"; 
+        }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzYAVodeSdk-j_BleFQDcYuX44MA7fjzNjgw_tyJtkBRlA-WDf5sFKIdePPAnD6CMTeAQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
