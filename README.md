@@ -1,6 +1,25 @@
 ## 🌐 Live Portfolio Website
 
+## 🌐 Live Portfolio Website
+
+[![View Portfolio](https://img.shields.io/badge/Click%20Here-View%20Portfolio-blue?style=for-the-badge)](https://Pratibha-Singh00.github.io/portfolio/)
+
+
+# 💼 My Portfolio Website
+
+Welcome to my personal portfolio website built with HTML, CSS, and JavaScript.
+
+## 🌐 Live Portfolio Website
+
 👉 [Click here to view my portfolio](https://Pratibha-Singh00.github.io/portfolio/)
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript  
+
+## 📁 Project Structure
 
 
 
