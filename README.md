@@ -1,3 +1,29 @@
+## 🌐 Live Portfolio Website
+
+👉 [Click here to view my portfolio](https://Pratibha-Singh00.github.io/portfolio/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --------------------deploy------------------
 
 Step A: First, remove the existing remote
