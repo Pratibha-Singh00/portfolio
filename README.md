@@ -1,7 +1,5 @@
 ## 🌐 Live Portfolio Website
 
-## 🌐 Live Portfolio Website
-
 [![View Portfolio](https://img.shields.io/badge/Click%20Here-View%20Portfolio-blue?style=for-the-badge)](https://Pratibha-Singh00.github.io/portfolio/)
 
 
@@ -19,7 +17,7 @@ Welcome to my personal portfolio website built with HTML, CSS, and JavaScript.
 - CSS3  
 - JavaScript  
 
-## 📁 Project Structure
+
 
 
 
